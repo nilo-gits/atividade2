@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Principal</a>
+        <a href="./tinkercad.html">Cad</a>
+        <a href="./c.html">C++</a>
+        <a href="./java.html">Java</a>
+        
+        
+        
+            </nav>
+            <h1>O que é c++?</h1>
+            <p>Em resumo, o C++ é uma linguagem de programação poderosa e versátil, usada para criar uma ampla variedade de aplicativos e sistemas, desde programas de desktop e jogos até sistemas críticos em tempo real e soluções de software de alto desempenho.</p>
+<br>
+            <div><img src="codigo c++++.png" alt=""></div>
+            <br>
+            <h2>Texto de exemplo do código C++</h2>
+ <P><br>// C++ code
+    <br>//
+    <br>int p1 = 0;
+    <br>
+    <br>int p2 = 0;
+    <br>
+    <br>int res = 0;
+    <br>
+    <br>void setup()
+    <br>{
+      <br>pinMode(A1, INPUT);
+      <br>Serial.begin(9600);
+      <br>pinMode(A0, INPUT);
+      <br>pinMode(12, OUTPUT);
+    <br>
+      <br>p1 = 0;
+      <br>p2 = 0;
+      <br>res = 0;
+      <br>}
+    <br>
+    <br>void loop()
+    <br>{
+      <br>p1 += analogRead(A1);
+      <br>Serial.println("---");
+      <br>Serial.println(p1);
+      <br>p2 += analogRead(A0);
+      <br>Serial.println("---");
+      <br>Serial.println(p2);
+      <br>if (p1 > p2) {
+        <br> res += (p1 + p2);
+        <br>Serial.println("---");
+        <br>Serial.println(res);
+        <br>digitalWrite(12, HIGH);
+        <br>delay(1000); // Wait for 1000 millisecond(s)
+        <br>} else {
+            <br>digitalWrite(12, LOW);
+            <br>}
+            <br>delay(1000); // Wait for 1000 millisecond(s)
+            <br>}</P>
+            <style>
+                @font-face {
+                font-family: 'fox';
+                src: url(daisywhl.otf) format('truetype');
+                font-weight: normal;
+                font-style: normal;
+                
+                }
+                body{
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                    p{
+                        font-family: 'fox', Times, serif;
+                       
+                        font-weight: normal;
+                    }
+                    h2{
+                        font-family: 'fox', Times, serif;
+                       
+                        font-weight: normal;
+                    }
+                    h3{
+                        font-family: 'ordem', Times, serif;
+                      
+                        font-weight: normal;
+                    }
+                    h1{
+                        font-family: 'fox', Times, serif;
+                    
+                        font-weight: normal;
+                    }
+                    </style>
+        
+            
+</body>
+</html>
